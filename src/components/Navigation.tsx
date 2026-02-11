@@ -3,7 +3,6 @@ import { useGSAPReveal } from '@/hooks/useGSAPReveal';
 import { useButtonGSAPInteractions } from '@/hooks/useGSAPInteractions';
 import { navItems } from '@/data/navigation';
 import { useNavigation } from '@/hooks/useNavigation';
-import { useWhatsApp } from '@/hooks/useWhatsApp';
 import { APP_CONFIG } from '@/lib/constants';
 
 const Navigation = () => {
@@ -15,8 +14,6 @@ const Navigation = () => {
     scrollToSection
   } = useNavigation();
 
-  const { sendMessage } = useWhatsApp();
-
   const navRevealRef = useGSAPReveal({
     direction: 'down',
     distance: 100,
@@ -25,10 +22,6 @@ const Navigation = () => {
   });
 
   const { handleHover, handleHoverOut, handleTap } = useButtonGSAPInteractions({ scale: 1.05, y: 0, duration: 0.3 });
-
-  const handleWhatsAppClick = () => {
-    sendMessage(undefined, APP_CONFIG.whatsapp.message);
-  };
 
   const handleLogoClick = () => {
     // Optionally scroll to top or reload

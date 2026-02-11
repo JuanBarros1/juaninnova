@@ -21,21 +21,21 @@ export const StructuredData: React.FC<StructuredDataProps> = ({
         return {
           ...baseData,
           name: 'Juan',
-          jobTitle: 'Desenvolvedor Web',
+          jobTitle: 'Web Developer',
           description: APP_CONFIG.SITE_DESCRIPTION,
           url: APP_CONFIG.SITE_URL,
           sameAs: Object.values(APP_CONFIG.SOCIAL_LINKS),
           knowsAbout: [
-            'Desenvolvimento Web',
+            'Web Development',
             'React',
             'JavaScript',
             'TypeScript',
-            'Design UI/UX',
+            'UI/UX Design',
             'Frontend Development',
             'Responsive Design'
           ],
-          serviceType: 'Desenvolvimento Web',
-          areaServed: 'Brasil',
+          serviceType: 'Web Development',
+          areaServed: 'Worldwide',
           image: `${APP_CONFIG.SITE_URL}/profile-image.jpg`,
           ...data
         };
@@ -48,14 +48,9 @@ export const StructuredData: React.FC<StructuredDataProps> = ({
           url: APP_CONFIG.SITE_URL,
           logo: `${APP_CONFIG.SITE_URL}/logo.png`,
           sameAs: Object.values(APP_CONFIG.SOCIAL_LINKS),
-          contactPoint: {
-            '@type': 'ContactPoint',
-            telephone: `+${APP_CONFIG.WHATSAPP_NUMBER}`,
-            contactType: 'customer service',
-            availableLanguage: 'Portuguese'
-          },
           ...data
         };
+
 
       case 'WebPage':
         return {

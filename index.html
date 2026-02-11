@@ -17,16 +17,15 @@
 
   <!-- Security Headers -->
   <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://api.whatsapp.com; frame-src 'self' https: http://localhost:8081 http://localhost:8082 http://127.0.0.1:8081 http://127.0.0.1:8082;">
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-src 'self' https: http://localhost:8081 http://localhost:8082 http://127.0.0.1:8081 http://127.0.0.1:8082;">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <!-- X-Frame-Options removed to allow local embedding -->
   <meta http-equiv="X-XSS-Protection" content="1; mode=block">
 
 
-  <!-- Performance Optimization -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <!-- Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="dns-prefetch" href="https://api.whatsapp.com">
 
   <!-- Preconnect to Project Domains for Faster Previews -->
   <link rel="preconnect" href="https://carolinamendes.netlify.app">

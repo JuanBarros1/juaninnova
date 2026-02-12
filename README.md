@@ -1,5 +1,7 @@
 # Innova - Premium Portfolio
 
+juanninnovaa.netlify.app
+
 High-performance portfolio developed for Juan, focusing on futuristic design, fluid animations, and immersive user experience.
 
 ## 🚀 Technologies

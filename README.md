@@ -1,10 +1,10 @@
 # Innova - Premium Portfolio
 
-juanninnovaa.netlify.app
+Site: juanninnovaa.netlify.app
 
 High-performance portfolio developed for Juan, focusing on futuristic design, fluid animations, and immersive user experience.
 
-## 🚀 Technologies
+##  Technologies
 
 - **Vite**: Ultra-fast build tool.
 - **React**: UI library for interactive components.
@@ -13,7 +13,7 @@ High-performance portfolio developed for Juan, focusing on futuristic design, fl
 - **GSAP**: Professional high-performance animations.
 - **Swiper**: Modern touch sliders.
 
-## 🛠️ Installation and Execution
+##  Installation and Execution
 
 1. **Install dependencies:**
    ```bash
@@ -30,14 +30,14 @@ High-performance portfolio developed for Juan, focusing on futuristic design, fl
    npm run build
    ```
 
-## 📂 Project Structure
+##  Project Structure
 
 - `/src/components`: UI Components (Hero, About, Projects, etc).
 - `/src/hooks`: Custom hooks (animations, business logic).
 - `/src/lib`: Utilities and constants.
 - `/public/images`: Optimized static assets.
 
-## 🌟 Highlights
+##  Highlights
 
 - **Performance**: Lazy loading, code splitting, and asset optimization.
 - **Design**: Premium color palette, glassmorphism, and neon effects.
